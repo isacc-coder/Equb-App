@@ -5,13 +5,13 @@ class DiscountList extends StatelessWidget {
   final String title, timeName, svgSrc, seq, earning, money, member;
   const DiscountList({
     Key? key,
-    required this.title,
-    required this.timeName,
-    required this.svgSrc,
-    required this.earning,
-    required this.money,
-    required this.member,
-    required this.seq,
+    this.title,
+    this.timeName,
+    this.svgSrc,
+    this.earning,
+    this.money,
+    this.member,
+    this.seq,
   }) : super(key: key);
 
   @override

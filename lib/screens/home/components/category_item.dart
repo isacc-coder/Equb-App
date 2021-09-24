@@ -7,9 +7,9 @@ class CategoryItem extends StatelessWidget {
   final Function press;
   const CategoryItem({
     Key? key,
-    required this.title,
+    this.title,
     this.isActive = false,
-    required this.press,
+    this.press,
   }) : super(key: key);
 
   @override
