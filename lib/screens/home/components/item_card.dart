@@ -7,11 +7,11 @@ class ItemCard extends StatelessWidget {
   final Function press;
   const ItemCard({
     Key? key,
-    required this.title,
-    required this.shopName,
-    required this.svgSrc,
-    required this.press,
-    required this.amount,
+    this.title,
+    this.shopName,
+    this.svgSrc,
+    this.press,
+    this.amount,
   }) : super(key: key);
 
   @override
